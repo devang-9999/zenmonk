@@ -1,0 +1,74 @@
+body{
+  margin : 0px;
+  padding: 0px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  border:2px;
+  border-color: white;
+  background-color: rgb(107, 190, 241);
+  border-radius: 5px;
+}
+
+input{
+  padding: 10px ;
+  margin-right: 10px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+button{
+  border: 1px;
+  border-color: blue;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  
+}
+
+button:hover{
+  background-color: aqua;
+}
+
+input[type="checkbox"]{
+  border: 2px;
+  border-color: grey;
+  background-color: skyblue;
+}
+
+span{
+  width: 100px;
+  height: 10px;
+  border: white;
+  background-color: skyblue;
+}
+
+ul{
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(0, 0, 9);
+  border-radius: 8px;
+  background-color: rgb(176, 220, 248);
+}
+
+li{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 101px;
+  align-items: center;
+}
+
+
+
+
+
